@@ -1,0 +1,218 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>My Portfolio Site</title>
+  <link rel="stylesheet" href="mainPage.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+ </head>
+ <body>
+  <div class="head" id="home"></div>
+  <style>html {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 1.5;
+  }
+  body {
+    background-color: #fafafa;
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 60px 10px;
+  }
+  h1, h2, h3 {
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #333;
+    margin-top: 0;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e9e9e9;
+  }
+
+  /* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;    
+  }  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  #link
+  {
+    color:#444;
+    text-decoration: none;
+    /*border-bottom: 1px solid blue;*/
+    padding-bottom: 2px;
+  }
+  #link:hover
+  {
+    color: darkred;
+    /*border-bottom: 1px solid red;*/
+  }
+  .project1
+  {
+    color: #444;
+  }
+  .project2
+  {
+    color: #444;
+  }
+  .project3
+  {
+    color: #444;
+  }
+  .project4
+  {
+    color: #444;
+  }
+  #navLink
+  {
+    color:#0a37b4;
+    text-decoration: none;
+    padding-bottom: 2px;
+  }
+  #navLink:hover
+  {
+    color: darkred;
+    /* border-bottom: 1px solid red; */
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:auto
+    }</style>
+  <br><br><br><br>
+    <h1 id="about">Hey there!</h1>
+  
+  <div class="navbar" ><!--Nav Bar-->
+    <a href="#home"><img src="CodeBuzz Logo.png"></a>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact Information</a>
+    </div>
+  </div>
+  <div>
+
+   <h2 >About Me<h2>
+   <p>
+    Hello, I am Advait (aka CodeBuzz), a 9th Grader and a developer!    
+   </p>
+
+   <h5>Hello there! I'm a programmer who is passionate about creating tech solutions that can make a positive impact on people's lives. From writing code to designing user interfaces, I love the process of taking an idea and turning it into a functioning product.
+
+    I have been programming for three years now, and during this time, I've gained experience in several languages such as Python, VB.NET, and C++ (Arduino), to name a few. I'm always looking to learn new things and stay up-to-date with the latest trends in the tech industry.
+    
+    One of my favorite aspects of programming is problem-solving. Nothing beats the sense of accomplishment that comes with overcoming a tricky coding challenge. I believe that every problem has a solution - it's just a matter of finding the right approach.
+    
+    Outside of programming, I enjoy spending time outdoors, reading books, and trying out new recipes in the kitchen. Overall, I'm a curious and driven individual who is always looking for ways to improve myself both personally and professionally.
+    
+    If you're interested in chatting more about programming or have any exciting projects you would like to work on, feel free to get in touch with me. I would love to hear from you!</h5>
+
+   <h2>My Projects</h2>
+   <ul>
+    <li><a href="#project1" id="link">Outer Space Collision Avoiding System</a></li>
+    <li><a href="#project2" id="link">Automated Step Irrigation System</a></li>
+    <li><a href="#project3" id="link">Grading System in VB.NET</a></li>
+    <li><a href="https://github.com/CodeBuzz-ML/PythonProjects" id="link">Other Python Projects</a></li>
+   </ul>
+
+   <h2 id="contact">Contact Information</h2>
+   <ul>
+    <li>GitHub: <a href="https://github.com/codebuzz-ml" id="navLink">github.com/codebuzz-ml</a></li>
+    <li>Email: <a href="mailto:codebuzz.ml@hotmail.com" id="navLink">codebuzz.ml@hotmail.com</a></li>
+    <li>Discord: CodeBuzz#4386 </li>
+    <li>Phone: +91 9373369214</li>
+   </ul>
+  </div>
+  <div id="projects">
+  <div class="project1" id="project1">
+    <h1>OSCAS (Outer Space Collision Avoiding System)</h1>
+    <p id="info">
+      Space debris and junk has been a problem for the spaceships since the inception. To fix this problem, I have made this solution. Please find the below synopsis. I also got the first prize in an interschool competition (Tech Zoo 2022-23) from this project!
+    </p><br>
+    <a href="project1/project1.html" id="navLink">Learn More</a> 
+  </div>
+  <div class="project2" id="project2">
+    <h1>Automated Step Irrigation System </h1>
+    <p id="info">
+      As you might know, many plants die due to lack of water or waterlogging. So to keep a perfect moisture of the plant. I have made this project. Please find the below link for the circuit diagram.
+      <br><a href="project2/project2.html" id="navLink">Learn More</a> 
+    </p>
+    <br>
+    </div>
+  <div class="project3">
+    <h1>Grading System in VB.NET</h1>
+  <p>This is also one of my projects, but I don't want to keep it open source because, I am looking forward in this project for commercial purposes. But I can tell what it does. So basically you can generate report cards with this application. I will also add custom features if requested while purchase. For more details, contact me with my details
+    <br><a href="project3/project3.html" id="navLink">Learn More</a>
+  </p>
+  </div>
+
+</div>
+ </body>
+</html>
